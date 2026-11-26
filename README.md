@@ -1,9 +1,9 @@
 # AutomaParts — Defective Part Classification (Machine Learning)
 
-> Progetto sviluppato nell'ambito del Master in AI Solution Architecture
-> (ProfessionAI) — modulo Machine Learning. Caso di studio a fini didattici.
+> Project developed as part of the Master in AI Solution Architecture
+> (ProfessionAI) — Machine Learning module. Educational case study.
 
-## Descrizione
+## Description
 A supervised classification project for AutomaParts S.p.A., a fictional
 automotive tier-1 supplier. The goal is to predict whether a precision
 mechanical part is defective at the end of the in-line inspection process,
@@ -16,7 +16,7 @@ using dimensional measurements, process parameters and line information.
 - scipy.stats, seaborn, matplotlib
 - Jupyter / Google Colab notebook
 
-## Skill dimostrate
+## Demonstrated skills
 - Exploratory data analysis (EDA) and class-imbalance assessment
 - Missing-value analysis and treatment criteria
 - Outlier handling and feature preparation (encoding, scaling)
@@ -24,7 +24,7 @@ using dimensional measurements, process parameters and line information.
 - Train/test split and generalisation evaluation
 - Comparison of supervised models and their trade-offs in an industrial context
 
-## Come eseguire
+## How to run
 Open `AutomaParts.ipynb` in Google Colab or Jupyter, then run the cells in order.
 
 ```bash
@@ -36,6 +36,6 @@ The first code cell loads the dataset from a public GitHub URL, so an internet
 connection is required. No API keys are needed.
 
 ## Note
-- Caso di studio a fini didattici. I dati, le aziende e i contatti citati nel
-  codice sono interamente fittizi.
+- Educational case study. All data, companies and contacts mentioned in the
+  code are entirely fictional.
 - The dataset is not stored in this repository; it is loaded at runtime.
